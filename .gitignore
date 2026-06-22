@@ -1,0 +1,17 @@
+.vs/
+x64/
+*.user
+*.VC.db
+*.VC.opendb
+*.suo
+*.ipch
+*.pdb
+*.ilk
+*.obj
+*.iobj
+*.ipdb
+*.idb
+*.tlog
+*.log
+*.exe.recipe
+*.FileListAbsolute.txt

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\tool">
+      <UniqueIdentifier>{d6486e53-ba1f-48f9-b181-42487e8715c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\anime">
+      <UniqueIdentifier>{d1f4aa36-4b94-4581-ace1-ab51f17f4b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{8115ffc8-d055-4dd4-bb1b-1bcc08195ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\button">
+      <UniqueIdentifier>{9cec4d39-1bdf-4812-a4e4-6c83c338b22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\door">
+      <UniqueIdentifier>{bc99dbd1-e46a-44d6-8a10-ae54998819c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\player">
+      <UniqueIdentifier>{5a047ddb-9f6e-46b0-9489-56b8c156d1d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件\anime</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件\anime</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="scenemanager.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menuscene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="walkscene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gamescene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="portal.h">
+      <Filter>头文件\door</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="region.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="boardbutton.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="givepuzzle.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game_made.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="rank.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
